@@ -23,3 +23,4 @@ chmod +x ~/config/setup.sh
 
 It will install all the basic softwares like alacritty (terminal), yay (AUR helper), Firefox (browser), nemo (file manager), Telegram Desktop, SDDM (Login Manager), Lightdm (Login Manager), etc.
 It enables SDDM with a custom theme.
+You can download wallpapers from my [github repo](https://github.com/MeetMaratha/wallpaper)
