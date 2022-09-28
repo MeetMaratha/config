@@ -7,10 +7,10 @@ Following are some images of the setup
 
 
 ![Employee data](/images/normal.png?raw=true "Normal Screen")
-![Employee data](/images/normal\ 1.png?raw=true "Normal Screen")
-![Employee data](/images/normal\ 2.png?raw=true "Normal Screen")
+![Employee data](/images/normal1.png?raw=true "Normal Screen")
+![Employee data](/images/normal2.png?raw=true "Normal Screen")
 ![Employee data](/images/terminal.png?raw=true "Terminal Screen")
-![Employee data](/images/terminal\ 2.png?raw=true "Terminal Screen")
+![Employee data](/images/terminal2.png?raw=true "Terminal Screen")
 
 
 ## Installation
