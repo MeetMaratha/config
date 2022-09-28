@@ -20,7 +20,7 @@ yay -S alacritty audacious autoconf automake base bison bleachbit blueberry blue
 sudo systemctl enable sddm.service
 
 # Copy all relevant files
-cd ..
+cd ~/config
 mkdir ~/.config
 mkdir ~/.fonts
 mkdir ~/.fonts/ttf
