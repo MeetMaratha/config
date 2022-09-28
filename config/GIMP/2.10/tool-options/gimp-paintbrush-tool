@@ -1,0 +1,14 @@
+# GIMP gimp-paintbrush-tool options
+
+(background (color-rgb 1 0.10588236153125763 0.10588236153125763))
+(brush "2. Hardness 100")
+(dynamics "Basic Simple")
+(gradient "FG to BG (RGB)")
+(palette "Color History")
+(brush-size 1)
+(jitter-amount 9.1699999999999999)
+(dynamics-expanded yes)
+(fade-repeat triangular)
+(gradient-view-type grid)
+
+# end of gimp-paintbrush-tool options

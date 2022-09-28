@@ -1,0 +1,17 @@
+{
+  "add books dialog dir": "/home/meet/Books/DSE314 Reinforcement Learning",
+  "add books dialog dir-last-used-filter-spec-all-files": false,
+  "database location dialog": "/home/meet/Documents/Books",
+  "sort_history": [
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ]
+  ],
+  "welcome_wizard_device": "default",
+  "welcome_wizard_was_run": true
+}

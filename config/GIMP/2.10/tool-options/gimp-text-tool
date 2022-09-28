@@ -1,0 +1,7 @@
+# GIMP gimp-text-tool options
+
+(palette "Color History")
+(font "Times New Roman,")
+(font-size 75)
+
+# end of gimp-text-tool options

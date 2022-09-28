@@ -1,0 +1,16 @@
+2022-09-28T11:11:48.880Z - info: [ui] [AppStore] loading 4 repositories from store
+2022-09-28T11:11:48.896Z - info: [ui] [AppStore] found account: MeetMaratha (Meet Maratha)
+2022-09-28T11:11:49.317Z - info: [ui] [BranchPruner] Last prune took place 20 hours ago - skipping
+2022-09-28T11:11:49.856Z - info: [ui] launching: 3.0.6-linux1 (Linux 5.19.11-arch1-1)
+2022-09-28T11:11:49.860Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2022-09-28T11:11:50.157Z - info: [ui] Subscribed 'MeetMaratha' to Alive channel
+2022-09-28T11:11:51.510Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.667s)
+2022-09-28T11:11:53.599Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 1.518s)
+2022-09-28T11:11:53.618Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 1.639s)
+2022-09-28T11:11:53.643Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 1.639s)
+2022-09-28T11:11:55.440Z - info: [ui] Executing getCommits: git log HEAD --date=raw --max-count=100 --skip=0 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 1.145s)
+2022-09-28T11:11:56.591Z - info: [ui] Executing getChangesFiles: git log 2bd1a1f5a482d9b29350570a8be86e694334040a -C -M -m -1 --no-show-signature --first-parent --raw --format=format: --numstat -z -- (took 1.147s)
+2022-09-28T11:12:08.746Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 18.286s)
+2022-09-28T11:12:09.838Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.088s)
+2022-09-28T11:12:50.201Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Solid-Waste-Collection - MeetMaratha (has token)
+2022-09-28T11:12:53.466Z - info: [ui] Executing pull: git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin (took 3.120s)

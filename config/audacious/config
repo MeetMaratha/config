@@ -1,0 +1,16 @@
+
+[audacious]
+generic_title_format=${title}${?artist: - ${artist}}
+shuffle=TRUE
+
+[audgui]
+filesel_path=/home/meet/Music
+
+[qtui]
+column_widths=25,25,490,257,50,302,175,25,100,25,109,275,275,275,75
+player_height=722
+player_width=1346
+playlist_columns=playing title artist album genre length
+
+[skins]
+skin=/usr/share/audacious/Skins/Default

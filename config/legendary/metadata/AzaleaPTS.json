@@ -1,0 +1,117 @@
+{
+  "app_name": "AzaleaPTS",
+  "app_title": "The Cycle Frontier Closed Beta",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "AzaleaPTS",
+      "asset_id": "AzaleaPTS",
+      "build_version": "ClosedBeta2.5.1",
+      "catalog_item_id": "9d76cdb95f0548b683aec5bd966642dc",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "azalea"
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "ageGatings": {},
+    "applicationId": "",
+    "categories": [
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2020-01-09T15:38:05.250Z",
+    "customAttributes": {
+      "CanRunOffline": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "CanSkipKoreanIdVerification": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "TheCyclePTS"
+      },
+      "MonitorPresence": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "PresenceID": {
+        "type": "STRING",
+        "value": "azalea"
+      },
+      "RequirementsJson": {
+        "type": "STRING",
+        "value": "{}"
+      },
+      "SupportedPlatforms": {
+        "type": "STRING",
+        "value": "Windows"
+      },
+      "UseAccessControl": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "com.epicgames.app.developerName": {
+        "type": "STRING",
+        "value": "YAGER Development GmbH"
+      }
+    },
+    "description": "The Cycle Frontier Closed Beta",
+    "developer": "YAGER",
+    "developerId": "o-w7z3vpqhq54t3gbwybuzlmx7xh3355",
+    "endOfSupport": false,
+    "entitlementName": "9d76cdb95f0548b683aec5bd966642dc",
+    "entitlementType": "EXECUTABLE",
+    "eulaIds": [
+      "egstore"
+    ],
+    "id": "9d76cdb95f0548b683aec5bd966642dc",
+    "installModes": [],
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "height": 1080,
+        "md5": "89a0f536788695f102818c22cb2aae9c",
+        "size": 968516,
+        "type": "DieselGameBox",
+        "uploadedDate": "2021-09-29T17:12:33.806Z",
+        "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/TheCycleFrontier_PTR_hero_landscape_1920x1080-89a0f536788695f102818c22cb2aae9c",
+        "width": 1920
+      },
+      {
+        "height": 1600,
+        "md5": "a965fefc11edaab2f22dafa29efca4b6",
+        "size": 954627,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2021-09-29T17:12:40.181Z",
+        "url": "https://cdn1.epicgames.com/salesEvent/salesEvent/TheCycleFrontier_PTR_hero_portrait_1200x1600-a965fefc11edaab2f22dafa29efca4b6",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2021-09-29T17:13:27.256Z",
+    "namespace": "azalea",
+    "releaseInfo": [
+      {
+        "appId": "AzaleaPTS",
+        "compatibleApps": [],
+        "dateAdded": "2019-03-13T00:00:00.000Z",
+        "id": "bc50a3b7cea84db4aa86053633551b62",
+        "platform": [
+          "Windows"
+        ],
+        "releaseNote": "",
+        "versionTitle": ""
+      }
+    ],
+    "status": "ACTIVE",
+    "title": "The Cycle Frontier Closed Beta",
+    "unsearchable": false
+  }
+}

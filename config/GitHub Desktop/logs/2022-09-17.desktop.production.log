@@ -1,0 +1,19 @@
+2022-09-17T16:41:07.190Z - info: [ui] [AppStore] loading 4 repositories from store
+2022-09-17T16:41:07.221Z - info: [ui] [AppStore] found account: MeetMaratha (Meet Maratha)
+2022-09-17T16:41:08.953Z - info: [ui] Subscribed 'MeetMaratha' to Alive channel
+2022-09-17T16:41:10.753Z - info: [ui] launching: 3.0.6-linux1 (Linux 5.19.6-arch1-1)
+2022-09-17T16:41:10.754Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2022-09-17T16:41:12.307Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.549s)
+2022-09-17T16:41:14.733Z - info: [ui] Stats reported.
+2022-09-17T16:41:15.208Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 1.963s)
+2022-09-17T16:41:15.226Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 2.103s)
+2022-09-17T16:41:15.821Z - info: [ui] Executing getBlobContents: git show HEAD:AI Paper/Figure 5.png (took 1.770s)
+2022-09-17T16:41:15.873Z - info: [ui] Executing getBlobContents: git show HEAD:AI Paper/Figure 5.png (took 1.882s)
+2022-09-17T16:41:18.308Z - info: [ui] Executing getCommits: git log HEAD --date=raw --max-count=100 --skip=0 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 1.601s)
+2022-09-17T16:41:21.778Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 2.503s)
+2022-09-17T16:41:23.397Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.615s)
+2022-09-17T16:41:35.602Z - info: [ui] Executing createCommit: git commit -F - (took 2.436s)
+2022-09-17T16:41:35.719Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Solid-Waste-Collection' took 3.454s
+2022-09-17T16:41:43.870Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Solid-Waste-Collection - MeetMaratha (has token)
+2022-09-17T16:42:45.675Z - info: [ui] Executing push: git -c credential.helper= push origin Version-2:Version-2 --progress (took 61.781s)
+2022-09-17T16:42:46.710Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.031s)

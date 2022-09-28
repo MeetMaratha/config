@@ -1,0 +1,29 @@
+{
+  "Ovenbird": {
+    "app_name": "Ovenbird",
+    "base_urls": [
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-tjvfg6rejs6h86qa7k9aa64rrgbxxb/05fb305bb94b4c7da224755c7aee8d49/default",
+      "https://download.epicgames.com/Builds/Org/o-tjvfg6rejs6h86qa7k9aa64rrgbxxb/05fb305bb94b4c7da224755c7aee8d49/default",
+      "https://download2.epicgames.com/Builds/Org/o-tjvfg6rejs6h86qa7k9aa64rrgbxxb/05fb305bb94b4c7da224755c7aee8d49/default",
+      "https://download3.epicgames.com/Builds/Org/o-tjvfg6rejs6h86qa7k9aa64rrgbxxb/05fb305bb94b4c7da224755c7aee8d49/default",
+      "https://download4.epicgames.com/Builds/Org/o-tjvfg6rejs6h86qa7k9aa64rrgbxxb/05fb305bb94b4c7da224755c7aee8d49/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-tjvfg6rejs6h86qa7k9aa64rrgbxxb/05fb305bb94b4c7da224755c7aee8d49/default"
+    ],
+    "can_run_offline": true,
+    "egl_guid": "",
+    "executable": "MarsEpic.exe",
+    "install_path": "/home/meet/Games/Heroic/SurvivingMars",
+    "install_size": 7630784075,
+    "install_tags": [],
+    "is_dlc": false,
+    "launch_parameters": "",
+    "manifest_path": null,
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": null,
+    "requires_ot": false,
+    "save_path": null,
+    "title": "Surviving Mars",
+    "version": "1.5_Fuglesang.1011166-Windows"
+  }
+}

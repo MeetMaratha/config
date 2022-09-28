@@ -1,0 +1,17 @@
+[Added Associations]
+application/pdf=org.gnome.Evince.desktop;
+image/png=org.xfce.ristretto.desktop;
+x-scheme-handler/tg=userapp-Telegram Desktop-7HOHP1.desktop;
+text/plain=leafpad.desktop;
+text/x-python=visual-studio-code.desktop;
+image/jpeg=org.xfce.ristretto.desktop;
+text/html=firefox.desktop;
+image/svg+xml=org.xfce.ristretto.desktop;
+application/x-ipynb+json=visual-studio-code.desktop;
+application/json=leafpad.desktop;
+
+[Default Applications]
+application/pdf=org.gnome.Evince.desktop
+image/png=org.xfce.ristretto.desktop
+x-scheme-handler/tg=userapp-Telegram Desktop-7HOHP1.desktop
+text/plain=leafpad.desktop

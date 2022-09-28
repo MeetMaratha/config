@@ -1,0 +1,19 @@
+2022-09-27T15:05:52.083Z - info: [ui] [AppStore] loading 4 repositories from store
+2022-09-27T15:05:52.102Z - info: [ui] [AppStore] found account: MeetMaratha (Meet Maratha)
+2022-09-27T15:05:53.012Z - info: [ui] Subscribed 'MeetMaratha' to Alive channel
+2022-09-27T15:05:53.618Z - info: [ui] launching: 3.0.6-linux1 (Linux 5.19.9-arch1-1)
+2022-09-27T15:05:53.621Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2022-09-27T15:05:54.615Z - info: [ui] Stats reported.
+2022-09-27T15:05:55.450Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.832s)
+2022-09-27T15:06:01.155Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 1.965s)
+2022-09-27T15:06:01.180Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 2.235s)
+2022-09-27T15:06:03.778Z - info: [ui] Executing getCommits: git log HEAD --date=raw --max-count=100 --skip=0 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 1.985s)
+2022-09-27T15:06:05.022Z - info: [ui] Executing getChangesFiles: git log 36f230962e7a49827c8f36c050b9c8d15f1a1fac -C -M -m -1 --no-show-signature --first-parent --raw --format=format: --numstat -z -- (took 3.314s)
+2022-09-27T15:06:05.204Z - info: [ui] Executing getChangesFiles: git log 14d92e82e69830ecf53a7fe6fa47ad1f8546d725 -C -M -m -1 --no-show-signature --first-parent --raw --format=format: --numstat -z -- (took 1.423s)
+2022-09-27T15:06:08.047Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 8.7s of which 0.0s paused, total 8.7s
+2022-09-27T15:06:13.460Z - info: [ui] Executing updateIndex: git update-index --add --remove --replace -z --stdin (took 4.762s)
+2022-09-27T15:06:15.082Z - info: [ui] Executing createCommit: git commit -F - (took 1.610s)
+2022-09-27T15:06:15.196Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Solid-Waste-Collection' took 6.639s
+2022-09-27T15:06:17.220Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Solid-Waste-Collection - MeetMaratha (has token)
+2022-09-27T15:06:35.175Z - info: [ui] Executing push: git -c credential.helper= push origin Version-2:Version-2 --progress (took 17.929s)
+2022-09-27T15:06:37.439Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.262s)

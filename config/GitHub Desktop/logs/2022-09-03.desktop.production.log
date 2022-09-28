@@ -1,0 +1,75 @@
+2022-09-03T17:18:20.519Z - error: [main] Error looking for toast activator CLSID in shortcut /home/meet/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/GitHub, Inc/GitHub Desktop.lnk
+TypeError: i.shell.readShortcutLink is not a function
+    at Q (/home/meet/webpack:/[name]/app/src/lib/find-toast-activator-clsid.ts:38:29)
+    at /home/meet/webpack:/[name]/app/src/lib/find-toast-activator-clsid.ts:26:33
+    at /home/meet/webpack:/[name]/app/src/main-process/notifications.ts:23:32
+    at /home/meet/webpack:/[name]/app/src/main-process/main.ts:719:55
+    at Object.<anonymous> (/home/meet/webpack:/[name]/app/src/main-process/main.ts:719:55)
+    at Module._compile (node:internal/modules/cjs/loader:1116:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1169:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Module._load (node:internal/modules/cjs/loader:829:12)
+    at Function.c._load (node:electron/js2c/asar_bundle:5:13331)
+2022-09-03T17:18:20.625Z - error: [main] Error looking for toast activator CLSID in shortcut /home/meet/Desktop/GitHub Desktop.lnk
+TypeError: i.shell.readShortcutLink is not a function
+    at Q (/home/meet/webpack:/[name]/app/src/lib/find-toast-activator-clsid.ts:38:29)
+    at /home/meet/webpack:/[name]/app/src/lib/find-toast-activator-clsid.ts:26:33
+    at /home/meet/webpack:/[name]/app/src/main-process/notifications.ts:23:32
+    at /home/meet/webpack:/[name]/app/src/main-process/main.ts:719:55
+    at Object.<anonymous> (/home/meet/webpack:/[name]/app/src/main-process/main.ts:719:55)
+    at Module._compile (node:internal/modules/cjs/loader:1116:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1169:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Module._load (node:internal/modules/cjs/loader:829:12)
+    at Function.c._load (node:electron/js2c/asar_bundle:5:13331)
+2022-09-03T17:18:20.626Z - error: [main] Toast activator CLSID not found in any of the shortucts. Falling back to known CLSIDs.
+2022-09-03T17:18:20.626Z - info: [main] Using toast activator CLSID {27D44D0C-A542-5B90-BCDB-AC3126048BA2}
+2022-09-03T17:18:23.816Z - info: [ui] [AppStore] loading 2 repositories from store
+2022-09-03T17:18:23.851Z - info: [ui] [AppStore] found account: MeetMaratha (Meet Maratha)
+2022-09-03T17:18:24.924Z - info: [ui] Executing getRemotes: git remote -v (took 1.030s)
+2022-09-03T17:18:24.982Z - info: [ui] launching: 3.0.5-linux1 (Linux 5.19.3-arch1-1)
+2022-09-03T17:18:24.987Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2022-09-03T17:18:27.200Z - info: [ui] Stats reported.
+2022-09-03T17:18:27.205Z - info: [ui] Subscribed 'MeetMaratha' to Alive channel
+2022-09-03T17:18:31.007Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 6.025s)
+2022-09-03T17:18:32.630Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 1.395s)
+2022-09-03T17:18:32.676Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 1.472s)
+2022-09-03T17:18:32.702Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 1.355s)
+2022-09-03T17:18:33.821Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Solid-Waste-Collection - MeetMaratha (has token)
+2022-09-03T17:18:34.740Z - info: [ui] Executing getCommits: git log HEAD --date=raw --max-count=100 --skip=0 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 1.424s)
+2022-09-03T17:18:36.518Z - info: [ui] Executing getChangedFilesNumStats: git log d4eedb4dd7027c25677c23bddee67020835f2725 -C -M -m -1 --no-show-signature --first-parent --format=format: -z --numstat -- (took 1.475s)
+2022-09-03T17:18:42.284Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 8.429s)
+2022-09-03T17:18:44.333Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Solid-Waste-Collection - MeetMaratha (has token)
+2022-09-03T17:18:45.474Z - info: [ui] Executing pull: git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin (took 1.042s)
+2022-09-03T17:18:45.477Z - error: [ui] `git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin` exited with an unexpected code: 1.
+stdout:
+Updating d4eedb4..cede72b
+
+stderr:
+error: Your local changes to the following files would be overwritten by merge:
+	AI Paper/AI Paper.log
+	AI Paper/AI Paper.pdf
+Please commit your changes or stash them before you merge.
+Aborting
+
+(The error was parsed as 53: null)
+2022-09-03T17:18:57.566Z - info: [ui] Executing createStashEntry: git stash push -m !!GitHub_Desktop<Version-2> (took 5.258s)
+2022-09-03T17:18:59.685Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Solid-Waste-Collection - MeetMaratha (has token)
+2022-09-03T17:19:03.539Z - info: [ui] Executing pull: git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin (took 3.285s)
+2022-09-03T17:20:18.355Z - info: [ui] Executing popStashEntry: git stash pop --quiet refs/stash@{0} (took 1.165s)
+2022-09-03T17:20:18.356Z - info: [ui] [AppStore. _popStashEntry] popped stash with commit id 8b57c3b8755547278356c36edd9d46bd840df144
+2022-09-03T17:20:28.492Z - info: [ui] Executing getBlobContents: git show HEAD:AI Paper/Dynamic_weighted_3_Truck.png (took 1.408s)
+2022-09-03T17:20:32.942Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 3.3s of which 0.0s paused, total 3.3s
+2022-09-03T17:21:21.337Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Solid-Waste-Collection' took 0.009s
+2022-09-03T17:21:28.184Z - info: [ui] Executing unstageAll: git reset -- . (took 1.280s)
+2022-09-03T17:21:33.673Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Solid-Waste-Collection - MeetMaratha (has token)
+2022-09-03T17:21:58.497Z - info: [ui] Executing push: git -c credential.helper= push origin Version-2:Version-2 --progress (took 24.805s)
+2022-09-03T17:21:59.784Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.282s)
+2022-09-03T17:22:08.568Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Solid-Waste-Collection - MeetMaratha (has token)
+2022-09-03T17:22:09.614Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.037s)
+2022-09-03T17:22:15.085Z - info: [ui] [AppStore. _dropStashEntry] dropped stash with commit id 8b57c3b8755547278356c36edd9d46bd840df144
+2022-09-03T17:23:37.141Z - info: [ui] Executing updateIndex: git update-index --add --remove --replace -z --stdin (took 1.997s)
+2022-09-03T17:23:37.821Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Solid-Waste-Collection' took 2.821s
+2022-09-03T17:23:39.735Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Solid-Waste-Collection - MeetMaratha (has token)
+2022-09-03T17:24:12.793Z - info: [ui] Executing push: git -c credential.helper= push origin Version-2:Version-2 --progress (took 33.052s)
+2022-09-03T17:24:14.107Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.297s)

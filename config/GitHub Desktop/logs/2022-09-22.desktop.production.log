@@ -1,0 +1,668 @@
+2022-09-22T17:14:20.382Z - info: [ui] [AppStore] loading 4 repositories from store
+2022-09-22T17:14:20.409Z - info: [ui] [AppStore] found account: MeetMaratha (Meet Maratha)
+2022-09-22T17:14:21.506Z - info: [ui] Subscribed 'MeetMaratha' to Alive channel
+2022-09-22T17:14:21.803Z - info: [ui] launching: 3.0.6-linux1 (Linux 5.19.9-arch1-1)
+2022-09-22T17:14:21.807Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2022-09-22T17:14:22.755Z - info: [ui] Stats reported.
+2022-09-22T17:14:23.691Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.889s)
+2022-09-22T17:14:26.264Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 2.825s)
+2022-09-22T17:14:26.287Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 2.681s)
+2022-09-22T17:14:26.323Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 2.850s)
+2022-09-22T17:14:27.813Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 1.000s)
+2022-09-22T17:14:27.825Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 1.050s)
+2022-09-22T17:14:27.834Z - info: [ui] Executing getRemotes: git remote -v (took 1.090s)
+2022-09-22T17:14:27.836Z - info: [ui] Executing getCommits: git log origin/Version-2..Version-2 --date=raw --max-count=100 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 1.129s)
+2022-09-22T17:14:27.901Z - info: [ui] Executing getAllTags: git show-ref --tags -d (took 1.224s)
+2022-09-22T17:14:27.960Z - info: [ui] Executing getConfigValueInPath: git config -z pull.rebase (took 1.338s)
+2022-09-22T17:14:29.368Z - info: [ui] Executing getCommits: git log HEAD --date=raw --max-count=100 --skip=0 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 1.460s)
+2022-09-22T17:14:33.398Z - info: [ui] Executing getConfigValueInPath: git config -z pull.rebase (took 1.062s)
+2022-09-22T17:14:33.509Z - info: [ui] Executing getRemotes: git remote -v (took 1.343s)
+2022-09-22T17:14:33.521Z - info: [ui] Executing getBlobContents: git show 14d92e82e69830ecf53a7fe6fa47ad1f8546d725:AI Paper/Figure 5.png (took 2.576s)
+2022-09-22T17:14:34.576Z - info: [ui] Executing getBlobContents: git show 14d92e82e69830ecf53a7fe6fa47ad1f8546d725^:AI Paper/Figure 5.png (took 1.005s)
+2022-09-22T17:14:35.411Z - info: [ui] [BranchPruner] Pruning 0 branches that have been merged into the default branch, main (e7e26b919f542895dee52ee87bf737a47310072f), from 'NLP-Project
+2022-09-22T17:14:41.470Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Assignment-1 - MeetMaratha (has token)
+2022-09-22T17:14:43.049Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 8.5s of which 0.0s paused, total 8.5s
+2022-09-22T17:19:44.779Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: NLP-Project - MeetMaratha (has token)
+2022-09-22T17:19:45.955Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.157s)
+2022-09-22T17:19:48.304Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.344s)
+2022-09-22T17:19:54.098Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/NLP-Project' took 0.540s
+2022-09-22T17:19:58.578Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: NLP-Project - MeetMaratha (has token)
+2022-09-22T17:20:00.133Z - info: [ui] Executing push: git -c credential.helper= push origin Before-Mid-Sem:Before-Mid-Sem --progress (took 1.529s)
+2022-09-22T17:20:01.173Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.036s)
+2022-09-22T17:20:02.235Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.059s)
+2022-09-22T17:21:03.468Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/NLP-Project' took 0.058s
+2022-09-22T17:21:31.178Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/NLP-Project' took 0.057s
+2022-09-22T17:21:59.290Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/NLP-Project' took 0.095s
+2022-09-22T17:22:27.312Z - info: [ui] Executing createCommit: git commit -F - (took 1.314s)
+2022-09-22T17:22:27.469Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/NLP-Project' took 1.556s
+2022-09-22T17:23:40.601Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: NLP-Project - MeetMaratha (has token)
+2022-09-22T17:23:42.269Z - info: [ui] Executing push: git -c credential.helper= push origin Before-Mid-Sem:Before-Mid-Sem --progress (took 1.663s)
+2022-09-22T17:23:43.077Z - info: [ui] Executing updateIndex: git update-index --add --remove --replace -z --stdin (took 9.754s)
+2022-09-22T17:23:43.431Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.142s)
+2022-09-22T17:23:44.203Z - info: [ui] Executing createCommit: git commit -F - (took 1.133s)
+2022-09-22T17:23:44.331Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/NLP-Project' took 11.094s
+2022-09-22T17:23:44.502Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.067s)
+2022-09-22T17:23:48.071Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: NLP-Project - MeetMaratha (has token)
+2022-09-22T17:24:26.702Z - info: [ui] Executing push: git -c credential.helper= push origin Before-Mid-Sem:Before-Mid-Sem --progress (took 38.614s)
+2022-09-22T17:24:27.867Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.140s)
+2022-09-22T17:24:29.053Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.184s)
+2022-09-22T17:29:50.717Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 3.2s of which 0.0s paused, total 3.2s
+2022-09-22T17:40:06.712Z - error: [ui] Error performing periodic fetch for 'MeetMaratha/Qtile-config'
+Error: Unable to find path to repository on disk.
+    at /home/meet/webpack:/[name]/app/node_modules/dugite/build/lib/git-process.js:119:39
+    at exithandler (node:child_process:413:5)
+    at ChildProcess.errorhandler (node:child_process:425:5)
+    at ChildProcess.emit (node:events:390:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:288:12)
+    at onErrorNT (node:internal/child_process:477:16)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2022-09-22T17:40:22.593Z - info: [ui] [BranchPruner] Last prune took place 26 minutes ago - skipping
+2022-09-22T17:40:23.427Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.085s)
+2022-09-22T17:41:12.412Z - info: [ui] [AppStore] adding repository at /home/meet to store
+2022-09-22T17:44:54.354Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 1.3s of which 0.0s paused, total 1.3s
+2022-09-22T17:45:15.151Z - error: [ui] `git reset -- .` exited with an unexpected code: 128.
+stderr:
+fatal: Unable to create '/home/meet/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+(The error was parsed as 35: A lock file already exists in the repository, which blocks this operation from completing.)
+2022-09-22T17:45:15.169Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Config' took 9.313s
+2022-09-22T17:45:18.076Z - error: [ui] `git reset -- .` exited with an unexpected code: 128.
+stderr:
+fatal: Unable to create '/home/meet/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+(The error was parsed as 35: A lock file already exists in the repository, which blocks this operation from completing.)
+2022-09-22T17:45:18.077Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Config' took 8.613s
+2022-09-22T17:47:54.472Z - error: [ui] `git reset -- .` exited with an unexpected code: 128.
+stderr:
+fatal: Unable to create '/home/meet/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+(The error was parsed as 35: A lock file already exists in the repository, which blocks this operation from completing.)
+2022-09-22T17:47:54.474Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Config' took 7.808s
+2022-09-22T17:49:08.526Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2022-09-22T17:50:29.807Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 2.212s)
+2022-09-22T17:50:31.053Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.225s)
+2022-09-22T17:51:19.514Z - info: [ui] [BranchPruner] Last prune took place 37 minutes ago - skipping
+2022-09-22T17:54:04.768Z - info: [ui] [AppStore] adding repository at /home/meet to store
+2022-09-22T17:54:07.675Z - info: [ui] Executing isUsingLFS: git lfs track (took 1.036s)
+2022-09-22T17:54:08.277Z - info: [ui] [BranchPruner] Last prune took place 9 minutes ago - skipping
+2022-09-22T17:55:24.242Z - error: [ui] `git reset -- .` exited with an unexpected code: 128.
+stderr:
+fatal: Unable to create '/home/meet/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+(The error was parsed as 35: A lock file already exists in the repository, which blocks this operation from completing.)
+2022-09-22T17:55:24.244Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Config' took 0.150s
+2022-09-22T17:55:47.436Z - error: [ui] `git reset -- .` exited with an unexpected code: 128.
+stderr:
+fatal: Unable to create '/home/meet/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+(The error was parsed as 35: A lock file already exists in the repository, which blocks this operation from completing.)
+2022-09-22T17:55:47.437Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Config' took 0.104s
+2022-09-22T17:57:25.172Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Config' took 2.998s
+2022-09-22T17:57:29.129Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Config - MeetMaratha (has token)
+2022-09-22T17:57:30.905Z - info: [ui] Executing push: git -c credential.helper= push origin main --set-upstream --progress (took 1.705s)
+2022-09-22T17:57:30.907Z - error: [ui] `git -c credential.helper= push origin main --set-upstream --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/MeetMaratha/Config.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/MeetMaratha/Config.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 10: The repository has been updated since you last pulled. Try pulling before pushing.)
+2022-09-22T17:57:44.308Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Config - MeetMaratha (has token)
+2022-09-22T17:57:48.489Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 4.147s)
+2022-09-22T17:57:50.366Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.873s)
+2022-09-22T17:57:55.893Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Config - MeetMaratha (has token)
+2022-09-22T17:58:03.824Z - info: [ui] Executing push: git -c credential.helper= push origin main --set-upstream --progress (took 7.891s)
+2022-09-22T17:58:03.841Z - error: [ui] `git -c credential.helper= push origin main --set-upstream --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/MeetMaratha/Config.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/MeetMaratha/Config.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 10: The repository has been updated since you last pulled. Try pulling before pushing.)
+2022-09-22T17:59:07.602Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Config - MeetMaratha (has token)
+2022-09-22T17:59:08.854Z - info: [ui] Executing push: git -c credential.helper= push origin main --set-upstream --progress (took 1.185s)
+2022-09-22T17:59:08.857Z - error: [ui] `git -c credential.helper= push origin main --set-upstream --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/MeetMaratha/Config.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/MeetMaratha/Config.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 10: The repository has been updated since you last pulled. Try pulling before pushing.)
+2022-09-22T17:59:10.675Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Config - MeetMaratha (has token)
+2022-09-22T17:59:12.138Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.424s)
+2022-09-22T17:59:13.567Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.427s)
+2022-09-22T17:59:25.293Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Config - MeetMaratha (has token)
+2022-09-22T17:59:26.058Z - error: [ui] `git -c credential.helper= push origin main --set-upstream --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/MeetMaratha/Config.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/MeetMaratha/Config.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 10: The repository has been updated since you last pulled. Try pulling before pushing.)
+2022-09-22T17:59:45.835Z - info: [ui] Executing checkoutPaths: git checkout HEAD -- (took 1.748s)
+2022-09-22T18:00:02.255Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Config' took 2.287s
+2022-09-22T18:00:04.189Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Config - MeetMaratha (has token)
+2022-09-22T18:00:05.684Z - error: [ui] `git -c credential.helper= push origin main --set-upstream --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/MeetMaratha/Config.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/MeetMaratha/Config.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 10: The repository has been updated since you last pulled. Try pulling before pushing.)
+2022-09-22T18:00:07.141Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 8.5s of which 0.0s paused, total 8.5s
+2022-09-22T18:00:15.951Z - info: [ui] [BranchPruner] Last prune took place 15 minutes ago - skipping
+2022-09-22T18:00:26.900Z - info: [ui] [BranchPruner] Last prune took place 1 hour ago - skipping
+2022-09-22T18:00:27.728Z - info: [ui] Executing getBranches: git for-each-ref --format=%00%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(author)%00%(symref)%00 refs/heads refs/remotes (took 1.033s)
+2022-09-22T18:00:41.216Z - info: [ui] [AppStore] adding repository at /home/meet to store
+2022-09-22T18:00:43.223Z - info: [ui] [BranchPruner] Last prune took place 16 minutes ago - skipping
+2022-09-22T18:03:10.622Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Config' took 2.007s
+2022-09-22T18:03:12.406Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Config - MeetMaratha (has token)
+2022-09-22T18:03:14.257Z - info: [ui] Executing push: git -c credential.helper= push origin main --set-upstream --progress (took 1.054s)
+2022-09-22T18:03:14.259Z - error: [ui] `git -c credential.helper= push origin main --set-upstream --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/MeetMaratha/Config.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/MeetMaratha/Config.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 10: The repository has been updated since you last pulled. Try pulling before pushing.)
+2022-09-22T18:03:24.973Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Config - MeetMaratha (has token)
+2022-09-22T18:03:26.062Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.058s)
+2022-09-22T18:03:27.370Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.305s)
+2022-09-22T18:03:37.685Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Config - MeetMaratha (has token)
+2022-09-22T18:03:38.465Z - error: [ui] `git -c credential.helper= push origin main --set-upstream --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/MeetMaratha/Config.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/MeetMaratha/Config.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 10: The repository has been updated since you last pulled. Try pulling before pushing.)
+2022-09-22T18:04:25.604Z - info: [ui] Executing updateIndex: git update-index --add --remove --replace -z --stdin (took 1391.395s)
+2022-09-22T18:04:25.619Z - error: [ui] `git update-index --add --remove --replace -z --stdin` exited with an unexpected code: 128.
+stderr:
+warning: CRLF will be replaced by LF in .config/heroic/GamesConfig/Ovenbird-lastPlay.log.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in .fonts/ttf/computer-modern/SIL Open Font License.txt.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/C-C++/Hello/main.cpp.
+The file will have its original line endings in your working directory
+Ignoring path Documents/Codes/HTML/enthuzia_2022/
+warning: CRLF will be replaced by LF in Documents/Codes/Jupyter Notebook/Assignment 4/data/heart.csv.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/AI/Proposal report/Team_GLaDOS_Proposal_Report.fdb_latexmk.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/AI/Proposal report/Team_GLaDOS_Proposal_Report.fls.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/AI/Proposal report/Team_GLaDOS_Proposal_Report.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Another CV/deedy-resume-openfont.cls.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Another CV/deedy_resume-openfont.aux.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Another CV/deedy_resume-openfont.fdb_latexmk.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Another CV/deedy_resume-openfont.fls.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Another CV/deedy_resume-openfont.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Another CV/out/deedy_resume-openfont.aux.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Another CV/out/deedy_resume-openfont.fdb_latexmk.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Another CV/publications.bib.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 1/main.fdb_latexmk.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 1/main.fls.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 2/Assignment 2.fdb_latexmk.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 2/Assignment 2.fls.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 2/Assignment 2.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 3/Assignment 3 Question 2.fdb_latexmk.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 3/Assignment 3 Question 2.fls.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 3/Assignment 3 Question 2.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 4/Assignment 4.fdb_latexmk.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 4/Assignment 4.fls.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 4/Assignment 4.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 5/Assignment 5.fdb_latexmk.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 5/Assignment 5.fls.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 5/Assignment 5.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 6/Assignment 6.fdb_latexmk.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 6/Assignment 6.fls.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 6/Assignment 6.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/CV/CV.fdb_latexmk.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/CV/CV.fls.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/CV/CV.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/MATLAB/Quantumm Physics Assignments/Assignment 2/Question_1_G.m.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/MATLAB/Quantumm Physics Assignments/Assignment 5/Question_3_a.m.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/MATLAB/Quantumm Physics Assignments/Assignment 5/Question_3_b.m.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/MATLAB/Quantumm Physics Assignments/Assignment 5/Question_3_c.m.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Project/Datasets/Exoplanets confirmed & candidates/exoplanet_confirm_and_candidates.csv.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Project/Reinforcement Learning/HC ROMS/BY ALPHABET (PAL)/======== ROM HUNTER'S HARMONY CART PAL 1977-1992 VCS ROMS COLLECTION V5 ========.txt.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Project/Reinforcement Learning/HC ROMS/BY ALPHABET/======== ROM HUNTER'S HARMONY CART ORIGINAL 1977-1992 VCS ROMS COLLECTION V12 ========.txt.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Project/Reinforcement Learning/HC ROMS/Garfield.txt.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Project/Reinforcement Learning/ROMS/========  ROM HUNTER'S 1977-1992 VCS ROMS COLLECTION V17  ========.txt.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Project/spotify-recommendation-system/README.md.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Project/spotify-recommendation-system/spotify-recommendation-engine.ipynb.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6066527583455937569.py.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6066527583455937570.py.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6086937182147183521.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6104881293516866587.csv.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6107091157269873527.txt.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6116428630919742616.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6120924606980163005.csv.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6120924606980163006.csv.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6140864009831711684.m.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6140864009831711717.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6142974234638418829.m.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6142974234638418942.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6145226034452103765.txt.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6145226034452103892.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6145226034452103897.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6147477834265788999.m.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6161104021739275136.m.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6161104021739275137.m.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6186137444782441786.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6233358613042168883.xml.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6244544924084077308.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6253288472476386427.py.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6269132499457148432.txt.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/WhatsApp/Media/WhatsApp Documents/Sent/Assignment2_Meet_DSE_19190.py.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/WhatsApp/Media/WhatsApp Documents/Sent/monte_carlo_on_policy.py.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/WhatsApp/Media/WhatsApp Documents/Sent/q_learning.py.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/WhatsApp/Media/WhatsApp Documents/Sent/sarsa.py.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Pictures/Meet Photos/Meet Signature and Photo/.picasa.ini.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Pictures/Meet Photos/Meet Signature and Photo/.picasaoriginals/.picasa.ini.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Pictures/My Photos/.picasa.ini.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Pictures/Photos/Appointment Letter/.picasa.ini.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Pictures/Photos/Banglore/.picasa.ini.
+The file will have its original line endings in your working directory
+error: unable to create temporary file: No such file or directory
+error: Pictures/Photos/Banglore/Photo0161.jpg: failed to insert into database
+fatal: Unable to process path Pictures/Photos/Banglore/Photo0161.jpg
+
+2022-09-22T18:04:25.621Z - error: [ui] createRepository: initial commit failed at /home/meet
+GitError: warning: CRLF will be replaced by LF in .config/heroic/GamesConfig/Ovenbird-lastPlay.log.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in .fonts/ttf/computer-modern/SIL Open Font License.txt.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/C-C++/Hello/main.cpp.
+The file will have its original line endings in your working directory
+Ignoring path Documents/Codes/HTML/enthuzia_2022/
+warning: CRLF will be replaced by LF in Documents/Codes/Jupyter Notebook/Assignment 4/data/heart.csv.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/AI/Proposal report/Team_GLaDOS_Proposal_Report.fdb_latexmk.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/AI/Proposal report/Team_GLaDOS_Proposal_Report.fls.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/AI/Proposal report/Team_GLaDOS_Proposal_Report.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Another CV/deedy-resume-openfont.cls.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Another CV/deedy_resume-openfont.aux.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Another CV/deedy_resume-openfont.fdb_latexmk.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Another CV/deedy_resume-openfont.fls.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Another CV/deedy_resume-openfont.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Another CV/out/deedy_resume-openfont.aux.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Another CV/out/deedy_resume-openfont.fdb_latexmk.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Another CV/publications.bib.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 1/main.fdb_latexmk.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 1/main.fls.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 2/Assignment 2.fdb_latexmk.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 2/Assignment 2.fls.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 2/Assignment 2.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 3/Assignment 3 Question 2.fdb_latexmk.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 3/Assignment 3 Question 2.fls.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 3/Assignment 3 Question 2.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 4/Assignment 4.fdb_latexmk.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 4/Assignment 4.fls.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 4/Assignment 4.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 5/Assignment 5.fdb_latexmk.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 5/Assignment 5.fls.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 5/Assignment 5.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 6/Assignment 6.fdb_latexmk.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 6/Assignment 6.fls.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/Assignment 6/Assignment 6.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/CV/CV.fdb_latexmk.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/CV/CV.fls.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Latex/CV/CV.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/MATLAB/Quantumm Physics Assignments/Assignment 2/Question_1_G.m.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/MATLAB/Quantumm Physics Assignments/Assignment 5/Question_3_a.m.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/MATLAB/Quantumm Physics Assignments/Assignment 5/Question_3_b.m.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/MATLAB/Quantumm Physics Assignments/Assignment 5/Question_3_c.m.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Project/Datasets/Exoplanets confirmed & candidates/exoplanet_confirm_and_candidates.csv.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Project/Reinforcement Learning/HC ROMS/BY ALPHABET (PAL)/======== ROM HUNTER'S HARMONY CART PAL 1977-1992 VCS ROMS COLLECTION V5 ========.txt.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Project/Reinforcement Learning/HC ROMS/BY ALPHABET/======== ROM HUNTER'S HARMONY CART ORIGINAL 1977-1992 VCS ROMS COLLECTION V12 ========.txt.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Project/Reinforcement Learning/HC ROMS/Garfield.txt.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Project/Reinforcement Learning/ROMS/========  ROM HUNTER'S 1977-1992 VCS ROMS COLLECTION V17  ========.txt.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Project/spotify-recommendation-system/README.md.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Documents/Codes/Project/spotify-recommendation-system/spotify-recommendation-engine.ipynb.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6066527583455937569.py.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6066527583455937570.py.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6086937182147183521.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6104881293516866587.csv.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6107091157269873527.txt.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6116428630919742616.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6120924606980163005.csv.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6120924606980163006.csv.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6140864009831711684.m.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6140864009831711717.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6142974234638418829.m.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6142974234638418942.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6145226034452103765.txt.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6145226034452103892.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6145226034452103897.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6147477834265788999.m.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6161104021739275136.m.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6161104021739275137.m.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6186137444782441786.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6233358613042168883.xml.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6244544924084077308.tex.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6253288472476386427.py.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/Telegram/Telegram Documents/5_6269132499457148432.txt.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/WhatsApp/Media/WhatsApp Documents/Sent/Assignment2_Meet_DSE_19190.py.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/WhatsApp/Media/WhatsApp Documents/Sent/monte_carlo_on_policy.py.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/WhatsApp/Media/WhatsApp Documents/Sent/q_learning.py.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Phone/WhatsApp/Media/WhatsApp Documents/Sent/sarsa.py.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Pictures/Meet Photos/Meet Signature and Photo/.picasa.ini.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Pictures/Meet Photos/Meet Signature and Photo/.picasaoriginals/.picasa.ini.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Pictures/My Photos/.picasa.ini.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Pictures/Photos/Appointment Letter/.picasa.ini.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Pictures/Photos/Banglore/.picasa.ini.
+The file will have its original line endings in your working directory
+error: unable to create temporary file: No such file or directory
+error: Pictures/Photos/Banglore/Photo0161.jpg: failed to insert into database
+fatal: Unable to process path Pictures/Photos/Banglore/Photo0161.jpg
+
+    at /home/meet/webpack:/[name]/app/src/lib/git/core.ts:247:11
+    at /home/meet/webpack:/[name]/app/src/lib/trampoline/trampoline-environment.ts:40:13
+    at /home/meet/webpack:/[name]/app/src/lib/trampoline/trampoline-tokens.ts:33:5
+    at Lo (/home/meet/webpack:/[name]/app/src/lib/git/update-index.ts:94:19)
+    at Ho (/home/meet/webpack:/[name]/app/src/lib/git/update-index.ts:150:60)
+    at hy (/home/meet/webpack:/[name]/app/src/lib/git/commit.ts:24:20)
+    at Object.createRepository [as onSubmit] (/home/meet/webpack:/[name]/app/src/ui/add-repository/create-repository.tsx:382:26)
+2022-09-22T18:04:26.777Z - info: [ui] [BranchPruner] Last prune took place 1 hour ago - skipping
+2022-09-22T18:05:19.572Z - info: [ui] [AppStore] adding repository at /home/meet to store
+2022-09-22T18:06:43.364Z - error: [ui] `git reset -- .` exited with an unexpected code: 128.
+stderr:
+fatal: Unable to create '/home/meet/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+(The error was parsed as 35: A lock file already exists in the repository, which blocks this operation from completing.)
+2022-09-22T18:06:43.365Z - info: [ui] [Timing] Action 'create commit' for 'meet' took 0.133s
+2022-09-22T18:07:01.597Z - info: [ui] [Timing] Action 'create commit' for 'meet' took 2.831s
+2022-09-22T18:07:14.254Z - info: [ui] Executing push: git -c credential.helper= push origin main --set-upstream --progress (took 1.401s)
+2022-09-22T18:07:15.365Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.087s)
+2022-09-22T18:07:16.419Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.050s)
+2022-09-22T18:07:20.863Z - info: [ui] [BranchPruner] Last prune took place 22 minutes ago - skipping
+2022-09-22T18:09:09.086Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Config' took 17.948s
+2022-09-22T18:20:07.993Z - info: [ui] [AppStore] loading 4 repositories from store
+2022-09-22T18:20:08.040Z - info: [ui] [AppStore] found account: MeetMaratha (Meet Maratha)
+2022-09-22T18:20:08.331Z - info: [ui] [BranchPruner] Last prune took place 35 minutes ago - skipping
+2022-09-22T18:20:11.113Z - info: [ui] Subscribed 'MeetMaratha' to Alive channel
+2022-09-22T18:20:13.198Z - info: [ui] launching: 3.0.6-linux1 (Linux 5.19.9-arch1-1)
+2022-09-22T18:20:13.200Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2022-09-22T18:20:32.470Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Config' took 6.625s
+2022-09-22T18:20:42.674Z - info: [ui] [AppStore] loading 4 repositories from store
+2022-09-22T18:20:42.689Z - info: [ui] [AppStore] found account: MeetMaratha (Meet Maratha)
+2022-09-22T18:20:42.776Z - info: [ui] [BranchPruner] Last prune took place 36 minutes ago - skipping
+2022-09-22T18:20:42.876Z - info: [ui] Subscribed 'MeetMaratha' to Alive channel
+2022-09-22T18:20:47.373Z - info: [ui] launching: 3.0.6-linux1 (Linux 5.19.9-arch1-1)
+2022-09-22T18:20:47.375Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2022-09-22T18:21:26.082Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Config' took 1.669s
+2022-09-22T18:21:30.884Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Config - MeetMaratha (has token)
+2022-09-22T18:23:09.329Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 98.406s)
+2022-09-22T18:23:09.488Z - info: [ui] Executing getCommits: git log 14d92e82e69830ecf53a7fe6fa47ad1f8546d725 --date=raw --max-count=1 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 1.116s)
+2022-09-22T18:23:10.424Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.086s)
+2022-09-22T18:23:11.498Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.056s)
+2022-09-22T18:23:14.182Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 5.9s of which 0.0s paused, total 5.9s
+2022-09-22T18:23:35.613Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Config - MeetMaratha (has token)
+2022-09-22T18:23:36.691Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.051s)
+2022-09-22T18:23:37.787Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.094s)
+2022-09-22T18:25:32.613Z - info: [ui] Executing updateIndex: git update-index --add --remove --replace -z --stdin (took 97.441s)
+2022-09-22T18:26:25.031Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Config - MeetMaratha (has token)
+2022-09-22T18:31:47.243Z - info: [ui] Executing createCommit: git commit -F - (took 374.616s)
+2022-09-22T18:31:48.948Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Config' took 479.641s
+2022-09-22T18:38:35.838Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 1.5s of which 0.0s paused, total 1.5s
+2022-09-22T18:41:43.987Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 918.932s)
+2022-09-22T18:41:45.020Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.029s)
+2022-09-22T18:42:02.435Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Config' took 1.678s
+2022-09-22T18:42:10.957Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Config - MeetMaratha (has token)
+2022-09-22T18:42:12.669Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 1.673s)
+2022-09-22T18:42:33.275Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Config' took 1.295s
+2022-09-22T18:42:37.256Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Config - MeetMaratha (has token)
+2022-09-22T18:42:39.247Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 1.973s)
+2022-09-22T18:51:22.977Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Config - MeetMaratha (has token)
+2022-09-22T18:51:25.056Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 2.063s)
+2022-09-22T18:51:27.002Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.932s)
+2022-09-22T18:51:51.008Z - info: [ui] Executing createCommit: git commit -F - (took 1.015s)
+2022-09-22T18:51:51.535Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Config' took 2.444s
+2022-09-22T18:59:13.589Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Config - MeetMaratha (has token)
+2022-09-22T18:59:13.690Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 2.2s of which 0.0s paused, total 2.2s
+2022-09-22T18:59:14.348Z - error: [ui] `git -c credential.helper= push origin main:main --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/MeetMaratha/Config.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/MeetMaratha/Config.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 10: The repository has been updated since you last pulled. Try pulling before pushing.)
+2022-09-22T18:59:21.366Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Config - MeetMaratha (has token)
+2022-09-22T18:59:28.300Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 6.918s)
+2022-09-22T18:59:29.337Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.018s)
+2022-09-22T18:59:48.522Z - info: [ui] Executing unstageAll: git reset -- . (took 1.272s)
+2022-09-22T18:59:49.488Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Config' took 2.246s
+2022-09-22T18:59:51.792Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Config - MeetMaratha (has token)
+2022-09-22T19:00:28.809Z - info: [ui] Executing pull: git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin (took 36.905s)
+2022-09-22T19:00:30.717Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.891s)
+2022-09-22T19:06:24.878Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Config - MeetMaratha (has token)
+2022-09-22T19:06:27.668Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 2.766s)
+2022-09-22T19:06:28.823Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.152s)
+2022-09-22T19:06:29.891Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.066s)
+2022-09-22T19:07:09.548Z - info: [ui] Executing createCommit: git commit -F - (took 1.345s)
+2022-09-22T19:07:10.024Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Config' took 2.745s
+2022-09-22T19:07:12.075Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Config - MeetMaratha (has token)
+2022-09-22T19:07:14.161Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 2.072s)
+2022-09-22T19:13:22.084Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Config' took 1.346s
+2022-09-22T19:13:25.553Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Config - MeetMaratha (has token)
+2022-09-22T19:13:27.283Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 1.711s)
+2022-09-22T19:13:28.371Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.083s)
+2022-09-22T19:13:29.409Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.036s)

@@ -1,0 +1,19 @@
+# settings
+
+(GimpGegl-gegl-unsharp-mask-config "2022-09-10 20:58:53"
+    (time 1662823733)
+    (std-dev 12.708)
+    (scale 1.484)
+    (threshold 0.75))
+(GimpGegl-gegl-unsharp-mask-config "2022-09-10 20:58:11"
+    (time 1662823691)
+    (std-dev 3)
+    (scale 0.5)
+    (threshold 0))
+(GimpGegl-gegl-unsharp-mask-config "Image Sharpen"
+    (time 0)
+    (std-dev 12.708)
+    (scale 1.484)
+    (threshold 0.75))
+
+# end of settings

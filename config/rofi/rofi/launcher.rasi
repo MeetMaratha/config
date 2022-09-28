@@ -1,0 +1,131 @@
+/*
+ *
+ * Author  : Aditya Shakya
+ * Mail    : adi1090x@gmail.com
+ * Github  : @adi1090x
+ * Twitter : @adi1090x
+ *
+ */
+
+configuration {
+	font: "Roboto Condensed Black 10";
+	show-icons: true;
+	display-drun: "";
+	drun-display-format: "{name}";
+	disable-history: false;
+	fullscreen: false;
+	hide-scrollbar: true;
+	sidebar-mode: false;
+}
+
+@import "launchercolors.rasi"
+
+window {
+	transparency: "real";
+	background-color: @bg;
+	text-color: @fg;
+	border: 0px;
+	border-color: #1F1F1F;
+	border-radius: 15px;
+	width: 550px;
+	location: center;
+	x-offset: 0;
+	y-offset: 0;
+}
+
+/* The logo beside search bar  */
+prompt {
+	enabled: true;
+	padding: 10px 10px 0px 10px;
+	background-color: @bg;
+	text-color: @fg;
+	border-radius: 15px 0px 0px 0px;
+	font: "Roboto Medium 17";
+}
+
+/* The Search bar */
+
+entry {
+	background-color: @bg;
+	text-color: @fg;
+	placeholder-color: @fg;
+	expand: true;
+	horizontal-align: 0;
+	placeholder: "Search...";
+	padding: 10px;
+	border-radius: 0px 10px 0px 0px;
+	blink: true;
+}
+
+inputbar {
+	children: [ prompt, entry ];
+	background-color: @bg;
+	text-color: @fg;
+	expand: false;
+	border:	0px;
+	border-radius: 0px 0px 0px 0px;
+	border-color: @ac;
+	spacing: 0px;
+}
+
+/* The Box containing the list  */
+
+listview {
+	background-color: @bg;
+	padding: 10px 0px 10px 0px;
+	columns: 2;
+	lines: 10;
+	spacing: 5px;
+	cycle: false;
+	dynamic: true;
+	layout: vertical;
+	font: "Roboto Medium 12";
+}
+
+mainbox {
+	background-color: @bg;
+	border: 0px;
+	border-radius: 0px;
+	border-color: @bg;
+	children: [ inputbar, listview ];
+	spacing: 0px;
+	padding: 0px;
+}
+
+/* The box containing unfocused items*/
+
+element {
+	background-color: transparent;
+	text-color: @fg;
+	orientation: horizontal;
+	border-radius: 0px;
+	padding: 6px;
+}
+
+/* The Logo in the list */
+element-icon {
+	size: 24px;
+	border: 0px;
+	padding: 2px 0px 2px 10px;
+	background-color: transparent;
+}
+
+/* The text in the list */
+
+element-text {
+	expand: true;
+	horizontal-align: 0;
+	vertical-align: 0.5;
+	margin: 0px 5px 0px 5px;
+	padding: 0px 5px 0px 5px;
+	background-color: transparent;
+	text-color: @fg;
+}
+
+element selected {
+	background-color: @bg-selected;
+	text-color: @fg;
+	border:	0px 0px 0px 0px;
+	border-radius: 15px;
+	border-color: @bg3;
+}

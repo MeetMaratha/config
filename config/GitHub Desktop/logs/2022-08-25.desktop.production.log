@@ -1,0 +1,81 @@
+2022-08-25T05:56:48.860Z - error: [main] Error looking for toast activator CLSID in shortcut /home/meet/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/GitHub, Inc/GitHub Desktop.lnk
+TypeError: i.shell.readShortcutLink is not a function
+    at Q (/home/meet/webpack:/[name]/app/src/lib/find-toast-activator-clsid.ts:38:29)
+    at /home/meet/webpack:/[name]/app/src/lib/find-toast-activator-clsid.ts:26:33
+    at /home/meet/webpack:/[name]/app/src/main-process/notifications.ts:23:32
+    at /home/meet/webpack:/[name]/app/src/main-process/main.ts:719:55
+    at Object.<anonymous> (/home/meet/webpack:/[name]/app/src/main-process/main.ts:719:55)
+    at Module._compile (node:internal/modules/cjs/loader:1116:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1169:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Module._load (node:internal/modules/cjs/loader:829:12)
+    at Function.c._load (node:electron/js2c/asar_bundle:5:13331)
+2022-08-25T05:56:49.025Z - error: [main] Error looking for toast activator CLSID in shortcut /home/meet/Desktop/GitHub Desktop.lnk
+TypeError: i.shell.readShortcutLink is not a function
+    at Q (/home/meet/webpack:/[name]/app/src/lib/find-toast-activator-clsid.ts:38:29)
+    at /home/meet/webpack:/[name]/app/src/lib/find-toast-activator-clsid.ts:26:33
+    at /home/meet/webpack:/[name]/app/src/main-process/notifications.ts:23:32
+    at /home/meet/webpack:/[name]/app/src/main-process/main.ts:719:55
+    at Object.<anonymous> (/home/meet/webpack:/[name]/app/src/main-process/main.ts:719:55)
+    at Module._compile (node:internal/modules/cjs/loader:1116:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1169:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Module._load (node:internal/modules/cjs/loader:829:12)
+    at Function.c._load (node:electron/js2c/asar_bundle:5:13331)
+2022-08-25T05:56:49.026Z - error: [main] Toast activator CLSID not found in any of the shortucts. Falling back to known CLSIDs.
+2022-08-25T05:56:49.026Z - info: [main] Using toast activator CLSID {27D44D0C-A542-5B90-BCDB-AC3126048BA2}
+2022-08-25T05:56:51.103Z - info: [ui] [AppStore] loading 2 repositories from store
+2022-08-25T05:56:51.128Z - info: [ui] [AppStore] found account: MeetMaratha (Meet Maratha)
+2022-08-25T05:56:51.768Z - info: [ui] launching: 3.0.5-linux1 (Linux 5.19.2-arch1-1)
+2022-08-25T05:56:51.770Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2022-08-25T05:56:52.551Z - info: [ui] Subscribed 'MeetMaratha' to Alive channel
+2022-08-25T05:56:52.941Z - info: [ui] Stats reported.
+2022-08-25T05:56:53.460Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.688s)
+2022-08-25T05:56:55.863Z - info: [ui] Executing getCommits: git log HEAD --date=raw --max-count=100 --skip=0 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 1.117s)
+2022-08-25T05:57:05.899Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Solid-Waste-Collection' took 1.374s
+2022-08-25T05:57:07.013Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Solid-Waste-Collection - MeetMaratha (has token)
+2022-08-25T05:57:10.054Z - info: [ui] Executing push: git -c credential.helper= push origin Version-2:Version-2 --progress (took 3.002s)
+2022-08-25T06:02:02.379Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 3.3s of which 30.2s paused, total 33.5s
+2022-08-25T06:05:14.512Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Solid-Waste-Collection - MeetMaratha (has token)
+2022-08-25T06:05:19.407Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 4.876s)
+2022-08-25T06:05:21.715Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Solid-Waste-Collection - MeetMaratha (has token)
+2022-08-25T06:05:24.492Z - info: [ui] Executing pull: git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin (took 2.671s)
+2022-08-25T15:30:48.328Z - error: [main] Error looking for toast activator CLSID in shortcut /home/meet/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/GitHub, Inc/GitHub Desktop.lnk
+TypeError: i.shell.readShortcutLink is not a function
+    at Q (/home/meet/webpack:/[name]/app/src/lib/find-toast-activator-clsid.ts:38:29)
+    at /home/meet/webpack:/[name]/app/src/lib/find-toast-activator-clsid.ts:26:33
+    at /home/meet/webpack:/[name]/app/src/main-process/notifications.ts:23:32
+    at /home/meet/webpack:/[name]/app/src/main-process/main.ts:719:55
+    at Object.<anonymous> (/home/meet/webpack:/[name]/app/src/main-process/main.ts:719:55)
+    at Module._compile (node:internal/modules/cjs/loader:1116:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1169:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Module._load (node:internal/modules/cjs/loader:829:12)
+    at Function.c._load (node:electron/js2c/asar_bundle:5:13331)
+2022-08-25T15:30:48.449Z - error: [main] Error looking for toast activator CLSID in shortcut /home/meet/Desktop/GitHub Desktop.lnk
+TypeError: i.shell.readShortcutLink is not a function
+    at Q (/home/meet/webpack:/[name]/app/src/lib/find-toast-activator-clsid.ts:38:29)
+    at /home/meet/webpack:/[name]/app/src/lib/find-toast-activator-clsid.ts:26:33
+    at /home/meet/webpack:/[name]/app/src/main-process/notifications.ts:23:32
+    at /home/meet/webpack:/[name]/app/src/main-process/main.ts:719:55
+    at Object.<anonymous> (/home/meet/webpack:/[name]/app/src/main-process/main.ts:719:55)
+    at Module._compile (node:internal/modules/cjs/loader:1116:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1169:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Module._load (node:internal/modules/cjs/loader:829:12)
+    at Function.c._load (node:electron/js2c/asar_bundle:5:13331)
+2022-08-25T15:30:48.450Z - error: [main] Toast activator CLSID not found in any of the shortucts. Falling back to known CLSIDs.
+2022-08-25T15:30:48.450Z - info: [main] Using toast activator CLSID {27D44D0C-A542-5B90-BCDB-AC3126048BA2}
+2022-08-25T15:30:50.394Z - info: [ui] [AppStore] loading 2 repositories from store
+2022-08-25T15:30:50.412Z - info: [ui] [AppStore] found account: MeetMaratha (Meet Maratha)
+2022-08-25T15:30:50.892Z - info: [ui] [BranchPruner] Last prune took place 10 hours ago - skipping
+2022-08-25T15:30:51.328Z - info: [ui] Subscribed 'MeetMaratha' to Alive channel
+2022-08-25T15:30:52.448Z - info: [ui] launching: 3.0.5-linux1 (Linux 5.19.3-arch1-1)
+2022-08-25T15:30:52.450Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2022-08-25T15:30:53.066Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 1.001s)
+2022-08-25T15:30:55.570Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Solid-Waste-Collection' took 0.752s
+2022-08-25T15:30:55.848Z - info: [ui] Executing getChangedFilesNumStats: git log 17bf1a5a599879f8d99fcedff4420a84aecc7809 -C -M -m -1 --no-show-signature --first-parent --format=format: -z --numstat -- (took 1.530s)
+2022-08-25T15:30:55.960Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.792s)
+2022-08-25T15:31:00.066Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Solid-Waste-Collection - MeetMaratha (has token)
+2022-08-25T15:31:02.599Z - info: [ui] Executing push: git -c credential.helper= push origin Version-2:Version-2 --progress (took 2.526s)
+2022-08-25T15:31:03.687Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.082s)

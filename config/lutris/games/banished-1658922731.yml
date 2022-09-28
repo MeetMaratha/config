@@ -1,0 +1,8 @@
+game:
+  arch: auto
+  args: WINEDLLOVERRIDES="xaudio2_7=n,b"%command%
+  exe: /home/meet/Games/Banished/Application-steam-x64.exe
+system:
+  resolution: 1280x720
+wine:
+  version: lutris-6.21-6-x86_64

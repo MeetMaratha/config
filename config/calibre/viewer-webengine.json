@@ -1,0 +1,37 @@
+{
+  "main_window_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAAKAAAAJAAABUsAAAL1AAAACgAAACQAAAVLAAAC9QAAAAAAAAAABVYAAAAKAAAAJAAABUsAAAL1"
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAmgD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACEAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANIA////AAAFQgAAAtIAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "session_data": {
+    "base_font_size": 16,
+    "controls_help_shown_count": 2,
+    "standalone_font_settings": {},
+    "standalone_misc_settings": {
+      "remember_last_read": true,
+      "remember_window_geometry": false,
+      "save_annotations_in_ebook": true,
+      "singleinstance": false
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "Seth Weidman"
+        ],
+        "key": "/home/meet/Documents/Books/Seth Weidman/Deep Learning from Scratch (2)/Deep Learning from Scratch - Seth Weidman.epub",
+        "pathtoebook": "/home/meet/Documents/Books/Seth Weidman/Deep Learning from Scratch (2)/Deep Learning from Scratch - Seth Weidman.epub",
+        "timestamp": "2022-09-06T07:25:12.894Z",
+        "title": "Deep Learning from Scratch"
+      }
+    ]
+  },
+  "viewer_image_popup_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAFPAAAAHAAABCYAAALpAAABTwAAABwAAAQmAAAC6QAAAAAAAAAABVYAAAFPAAAAHAAABCYAAALp"
+  }
+}
