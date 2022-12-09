@@ -130,6 +130,9 @@ keys = [
 
     # Power Menu
     Key([mod], 'z', lazy.spawn("/home/meet/.config/rofi/powermenu.sh")),
+
+    # Fullscreen
+    Key([mod], 'f', lazy.window.toggle_fullscreen(), desc = "Toggle Fullscreen"),
 ]
 
 groups = []
@@ -137,11 +140,11 @@ tag = ['', '', '', '', '', '', '',]
 
 for g in (
   ('1', tag[0], '', [Match(wm_class = 'Alacritty')]),
-  ('2', tag[1], 'max', [Match(wm_class = 'firefox')]),
+  ('2', tag[1], 'max', [Match(wm_class = 'firefox'), Match(wm_class = 'firefoxdeveloperedition')]),
   ('3', tag[2], '', [Match(wm_class = 'pcmanfm'), Match(wm_class = 'Thunar'), Match(wm_class = 'Nemo')]),
   ('4', tag[3], '', [Match(wm_class = 'code')]),
   ('q', tag[4], 'max', [Match(wm_class = 'Steam'), Match(wm_class = 'lutris'), Match(wm_class = 'heroic')]),
-  ('w', tag[5], 'max', [Match(wm_class = 'vlc'), Match(wm_class = 'Audacious'), Match(wm_class = 'Spotube')]),
+  ('w', tag[5], 'max', [Match(wm_class = 'vlc'), Match(wm_class = 'Audacious'), Match(wm_class = 'spotify')]),
   ('e', tag[6], '', [ ]),
 ):
   args = {'label': g[1], 'layout': g[2], 'matches': g[3]}
@@ -735,7 +738,7 @@ def wifi(bg: str, fg: str) -> list:
     padding_y = 4,
     padding_x = 8,
     mouse_callbacks = {
-      'Button1' : lazy.spawn("/home/meet/.config/rofi/launcher.sh"),
+      'Button1' : lazy.spawn("nm-connection-editor"),
     }
   )]
 

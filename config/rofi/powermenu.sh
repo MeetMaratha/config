@@ -38,7 +38,7 @@ case $chosen in
 		shutdown now
         ;;
     $reboot)
-		reboot
+		systemctl reboot
         ;;
     $lock)
 		dm-tool switch-to-greeter
